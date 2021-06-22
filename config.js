@@ -2,13 +2,13 @@ var config = {
     style: 'mapbox://styles/vheritage/ckq5s9man3m6b17o0mtgj7vay',
     accessToken: 'pk.eyJ1Ijoidmhlcml0YWdlIiwiYSI6ImNrb3UwNHIzNzAyMG0yd3FqZGdiejFxOTEifQ._ABN33UTZQGAwfZCiub-yQ',
     showMarkers: true,
-    markerColor: '#3FB1CE',
+    markerColor: '#ff6d00',
     theme: 'light',
     use3dTerrain: false,
     //title: 'Културен маршрут Одесос-Варна',
     //subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     //byline: 'Културното наследство на Варна като туристическа дестинация',
-    footer: 'varnaheritage.com',
+    //footer: 'varnaheritage.com',
     chapters: [
         {
             id: 'object-1',
@@ -110,7 +110,7 @@ var config = {
                 pitch: 0,
                 bearing: 104.00
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
@@ -129,7 +129,7 @@ var config = {
                 pitch: 40,
                 bearing: 96
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
@@ -148,7 +148,7 @@ var config = {
                 pitch: 16.50,
                 bearing: 148.20
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
@@ -167,7 +167,7 @@ var config = {
                 pitch: 60,
                 bearing: 132.00
             },
-            mapAnimation: 'easeTo',
+            mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
